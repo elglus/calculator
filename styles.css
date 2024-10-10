@@ -43,10 +43,19 @@
     margin-left: 5px;
 }
 
-.clear,
 .equals {
     width: 180px;
     height: 65px;
+}
+
+.clear,
+.backspace {
+    height: 65px;
+    width: 80px;
+}
+
+.clear {
+    font-size: 30px;
 }
 
 .operator {
