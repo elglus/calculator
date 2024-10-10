@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+.main {
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #a5a5a5; 
+    border: 1px solid #7f7f7f;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.display {
+    height: 70px;
+    width: auto;
+    background-color: #cccccc; 
+    border: 1px solid #7f7f7f;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+}
+.number {
+    height: 60px;
+    width: 55px;
+}
+
+.functional {
+    margin-left: 5px;
+}
+.clear,
+.equals {
+    width: 70px;
+    height: 40px;
+}
+
+.operator {
+    height: 40px;
+    width: 40px;
+}
